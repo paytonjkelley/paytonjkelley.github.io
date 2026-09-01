@@ -129,6 +129,12 @@
     display:flex;align-items:center;justify-content:center;position:relative;
     box-shadow:var(--shadow);
   }
+  .headshot-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
   .headshot-monogram{
     font-family:'Fraunces',serif;font-style:italic;font-weight:400;font-size:120px;
     color:var(--rose);opacity:0.55;letter-spacing:-0.02em;
@@ -386,8 +392,7 @@
       </div>
       <div class="headshot-frame">
         <div class="headshot-box">
-          <span class="headshot-monogram">PK</span>
-          <div class="headshot-caption">Professional headshot placeholder — swap in final photography</div>
+          <img src="headshot.jpeg" alt="Payton J. Kelley">
         </div>
       </div>
     </div>
